@@ -11,7 +11,9 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 8
-
+      - uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
 
