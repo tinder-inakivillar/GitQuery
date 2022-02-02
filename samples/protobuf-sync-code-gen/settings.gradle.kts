@@ -1,9 +1,9 @@
 pluginManagement {
     repositories {
-        if (System.getenv("CI") == "true") {
+      //  if (System.getenv("CI") == "true") {
             mavenLocal()
-        }
+      //  }
         // for GA versions
-        gradlePluginPortal()
+      //  gradlePluginPortal()
     }
 }

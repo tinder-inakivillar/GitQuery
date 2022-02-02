@@ -1,4 +1,4 @@
-name: Chanllenge Project CI
+name: Gradle
 on: pull_request
 jobs:
   gradle:
