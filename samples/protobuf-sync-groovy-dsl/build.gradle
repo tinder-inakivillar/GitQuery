@@ -14,8 +14,8 @@ gitQuery {
 
 repositories {
     jcenter()
-    if (System.getenv("CI") == "true") {
+    //if (System.getenv("CI") == "true") {
         mavenLocal()
-    }
+    //}
     mavenCentral()
 }

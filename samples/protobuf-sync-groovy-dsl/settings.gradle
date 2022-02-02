@@ -4,6 +4,6 @@ pluginManagement {
             mavenLocal()
        // }
         // for GA versions
-       // gradlePluginPortal()
+        gradlePluginPortal()
     }
 }

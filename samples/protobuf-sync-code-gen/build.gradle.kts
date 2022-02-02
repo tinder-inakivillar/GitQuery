@@ -30,9 +30,9 @@ sourceSets {
 
 repositories {
     jcenter()
-    if (System.getenv("CI") == "true") {
+    //if (System.getenv("CI") == "true") {
         mavenLocal()
-    }
+   // }
     maven("https://jitpack.io")
 }
 
